@@ -14,12 +14,12 @@ DHT dht(DHTPIN, DHTTYPE);
 
 AWS_IOT hornbill;   // AWS_IOT instance
 
-char WIFI_SSID[]="mywifi";//dlink-2D92
-char WIFI_PASSWORD[]="98769876"; //  faecd91976
+char WIFI_SSID[]="mywifi";//your_wifi_ssid
+char WIFI_PASSWORD[]="98769876"; //  password
 
-char HOST_ADDRESS[]="admigwosk81v3-ats.iot.ap-south-1.amazonaws.com";
-char CLIENT_ID[] = "vivekthingpolicy"; // policy name
-char TOPIC_NAME[]= "mqtt";
+char HOST_ADDRESS[]="your_id.iot.ap-south-1.amazonaws.com";
+char CLIENT_ID[] = "yourthingpolicy"; // policy name
+char TOPIC_NAME[]= "your_topic_name";
 
 
 int status = WL_IDLE_STATUS;
