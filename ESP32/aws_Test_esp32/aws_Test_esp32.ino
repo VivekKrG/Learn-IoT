@@ -39,12 +39,12 @@
 #define DHT_PIN 33 // pin connected to data pin of DHT11
 #define DHT_TYPE DHT11
 
-#define WIFI_SSID "dlink-2D92" // your wifi ssid
-#define WIFI_PASSWD "faecd91976" //your wifi password
+#define WIFI_SSID "your_wifi_ssid" // your wifi ssid
+#define WIFI_PASSWD "password" //your wifi password
 
 #define CLIENT_ID "Test_on_esp32" // thing unique ID, can be any unique id
-#define MQTT_TOPIC "$aws/things/Test_on_esp32/shadow/update" //topic for the MQTT data
-#define AWS_HOST "admigwosk81v3-ats.iot.ap-south-1.amazonaws.com" // your host for uploading data to AWS,
+#define MQTT_TOPIC "$aws/things/your_device_name/shadow/update" //topic for the MQTT data
+#define AWS_HOST "your_id.iot.ap-south-1.amazonaws.com" // your host for uploading data to AWS,
 
 DHT dht(DHT_PIN, DHT_TYPE);
 AWS_IOT aws;
